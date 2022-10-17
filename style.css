@@ -1,0 +1,264 @@
+*{
+    margin: 0; 
+    padding: 0;
+    text-decoration: 0;
+    font-family: Arial;
+    font-size: 1.1rem;
+}
+
+/* main, header{
+    display: block;
+    max-width: 1650px;
+    margin: auto;
+
+} */
+
+main, .menu{
+    max-width: 1380px;
+    min-width: 800px;
+    box-sizing: border-box;
+}
+
+a, a:visited, a:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(82, 3, 3);
+    color: beige;
+    border: 1px solid black;
+}
+
+#lista_menu{
+display: flex;
+margin: auto;
+}
+
+#lista_menu > li{
+    /* margin-left: 20px; */
+    list-style: none;
+    margin-left: 15px;
+    padding: 10px; 
+}
+
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px black;
+    border-radius: 60px;
+  }
+
+  #txtBusca{
+    float:left;
+    padding-left:5px;
+    font-style:italic;
+    font-size: 12px;
+    /* border:none; */
+    height:20px;
+    width:150px;
+  }
+
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#logo{
+    display: flex;
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+}
+
+section{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#anuncio_esq{
+    background-color: beige;
+    width: 12%;
+    justify-content: space-around;
+}
+
+#anuncio_esq > div{
+    width: 100%;
+    height: 700px;
+    /* background-color: aqua; */
+    border: 5px solid rgb(82, 3, 3);
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+#noticias{
+    background-color: rgba(238, 232, 232, 0.8);
+    width: 76%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+
+.boxnews-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.tipo{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo{
+    width: 100%;
+    height: 50%;
+    margin-left: 20px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 5px solid rgb(82, 3, 3);
+    padding-top: 50px;
+    
+}
+
+.boxnews{
+    display: flex;
+    width: 280px;
+    height: 280px;
+    border: 2px solid rgb(82, 3, 3);
+    position: relative;
+    margin: 40px 0 10px 0;
+    box-sizing: border-box;
+}
+
+#anuncio_dir{
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+    width: 12%;
+    box-sizing: border-box;
+}
+
+#anuncio_dir > div{
+    margin-left: 2px;
+    width: 95%;
+    height: 250px;
+    /* background-color: brown; */
+    box-sizing: border-box;
+    border: 5px solid rgb(82, 3, 3);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+display: flex;
+align-items: center;
+width: 100%;
+height: 30%;
+text-align: center;
+bottom: 0;
+position: absolute;
+color: white;
+background-color: rgba(0,0,0, 0.6);
+margin: 0;
+padding: 0;
+}
+
+.text p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    width: 100%;
+    background-color: grey;
+    color: rgb(82, 3, 3) ;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+footer > h1{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1.0;
+    text-align: center;
+}
+
+/* @media screen and (max-width: 1150px){
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 90px;
+        background-color: rgb(82, 3, 3);
+        color: beige;
+    }
+
+    .boxnews{
+        width: 300px;
+        height: 280px;
+    }
+
+
+    p{
+        font-size: 12px;
+    }
+    #destaque > div {
+        width: 150px;
+        height: 150px;
+    }
+    #noticias > div:nth-child(n+2), #destaque{
+        height: 250px;
+    } 
+ 
+} */
+    
+
+/* .grid > div:nth-child(n+4){
+    display: flex;
+    height: 220px;
+    width: 220px;
+    background-color: blueviolet;
+    margin: auto;
+}
+
+.grid > div{
+    flex: 1 1 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+
+.anuncio{
+    grid-column: 1;
+    grid-row: 2/7;
+    border: 2px solid black;
+    
+} */
